@@ -1,0 +1,8 @@
+#ifndef CONST_H_INCLUDED
+#define CONST_H_INCLUDED
+
+
+#define MAX_MATRICES 26
+
+
+#endif // CONST_H_INCLUDED
