@@ -6,7 +6,13 @@
 make
 ```
 
-## Ejemplos de uso
+## Instrucciones y ejemplos de uso
+
+1. Luego de compilar usando make, entrar a la carpeta bin y ejecutar ./main.
+2. Debe colocarse uno o mas archivos de prueba en el mismo directorio que el ejecutable main.
+3. Para empezar, cargar una matriz usando el comando "load".
+
+
 ```
 a = b + c
 b = c - a
