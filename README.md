@@ -1,5 +1,9 @@
 # Lab 1 Sistemas Operativos
 
+## Descripcion del proyecto
+
+Calculadora de matrices. Utiliza fork, pipes y dup. El usuario puede cargar matrices (desde archivos), operar con ellas, guardarlas, etc, por medio de comandos.
+
 ## Compilacion
 
 ```
@@ -31,8 +35,7 @@ exit
 1. Utiliza regex para la linea de comandos. Los comandos pueden tener mayusculas o minusculas, espacio blanco extra, etc.
 2. Tiene un modulo de "compilacion" del comando, el cual crea una estructura de "instruccion".
 3. La instruccion es ejecutada por otro modulo, en un estilo similar a una maquina virtual.
-4. Utiliza fork, dup, y pipes.
-5. La lectura y escritura por pipes es binarizada; no envia strings legibles por humanos.
+4. La lectura y escritura por pipes es binarizada; no envia strings legibles por humanos.
 
 -------
 
