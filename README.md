@@ -20,6 +20,7 @@ clear b
 t = r
 exit
 ```
+
 ## Caracteristicas del programa
 1. Utiliza regex para la linea de comandos. Los comandos pueden tener mayusculas o minusculas, espacio blanco extra, etc.
 2. Tiene un modulo de "compilacion" del comando, el cual crea una estructura de "instruccion".
