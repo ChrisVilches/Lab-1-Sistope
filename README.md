@@ -45,4 +45,4 @@ Felipe Vilches Cespedes, 18.015.608-9
 
 Profesor Fernando Rannou
 
-Ingenieria Informatica, Universidad de Santiago de Chile
+Ingenieria Informatica, Universidad de Santiago de Chile.
