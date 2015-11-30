@@ -5,7 +5,6 @@
 #include <string.h>
 #include "const.h"
 #include "enum.h"
-#include <unistd.h>
 
 
 

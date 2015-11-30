@@ -1,6 +1,8 @@
 #ifndef PIPES_H_INCLUDED
 #define PIPES_H_INCLUDED
 
+#include <unistd.h>
+#include <sys/types.h>
 #include "cmd_no_exec.h"
 
 #define LECTURA 0
