@@ -21,8 +21,10 @@ int main(){
         fp = fopen(nombreArchivo, "w");
 
         // Generar dimensiones
-        int n = rand()%10 + 5;
-        int m = rand()%10 + 5;
+        //int n = rand()%10 + 5;
+        //int m = rand()%10 + 5;
+        int n = 4;
+        int m = 8;
 
         // Escribir dimensiones
         fprintf(fp, "%d\n", n);

@@ -4,6 +4,8 @@
 
 Calculadora de matrices. Utiliza fork, pipes y dup. El usuario puede cargar matrices (desde archivos), operar con ellas, guardarlas, etc, por medio de comandos.
 
+El programa ```header/pipes.h``` contiene los procedimientos necesarios y mas importantes de este proyecto, los cuales envian y reciben matrices por pipe, y ejecutan (exec) nuevos procesos, etc.
+
 ## Compilacion
 
 ```
