@@ -100,6 +100,7 @@ void copiarString(char* destino, char* fuente, int indice1, int indice2){
         destino[j] = fuente[i];
         j++;
     }
+    destino[j] = '\0';
 }
 
 
