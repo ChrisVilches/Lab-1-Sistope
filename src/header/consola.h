@@ -173,7 +173,7 @@ void leerComando(char* comando, instruccion* out){
                 }
             break;
             case MULTCONST:
-                patron = "^\\s*\\([A-Z]\\)\\s*=\\s*\\([A-Z]\\)\\s*\\*\\s*\\([0-9]\\+\\)\\s*$";
+                patron = "^\\s*\\([A-Z]\\)\\s*=\\s*\\([A-Z]\\)\\s*\\*\\s*\\(\\-\\?[0-9]\\+\\)\\s*$";
                 if((regcomp(&regex, patron, 0) != 1) && regexec(&regex, comandoLimpio, nmatch, pmatch, 0) == 0){
                     letraMatriz0 = comandoLimpio[pmatch[1].rm_so];
                     letraMatriz1 = comandoLimpio[pmatch[2].rm_so];
