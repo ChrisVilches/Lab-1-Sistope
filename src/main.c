@@ -39,7 +39,12 @@ int main(int argc, char* argv []){
         printf("$ ");
 
 		// Leer comando de la entrada estandar
-		fgets(comando, sizeof comando, stdin);
+		if(fgets(comando, sizeof comando, stdin) == NULL){
+			// Cuando se ejecuta haciendo doble click, no se bloquea
+			// con este fgets, y ralentiza el computador por este while
+			// infinito
+			break;
+		}
 
 		// Obtiene la instruccion a partir del comando
 		leerComando(comando, &instr);
